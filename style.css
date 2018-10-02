@@ -1,0 +1,71 @@
+
+* { text-align: center;
+}
+
+
+body {
+	background-image: url(pp.jpg);
+	border-size: cover;
+}
+h2 {
+	color: white;
+	text-align: center;
+	border: 5px dashed rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.7);
+}
+p {
+	color: blue;
+}
+p {
+	color: rgb(0, 255, 0);
+	text-align: center;
+	border: 5px solid white;
+	background: rgba(0, 0, 0, 0.5);
+}
+li {text-align: center;
+	color: white;
+	list-style: none;
+	display: inline-block;
+}
+img {
+	float: left;
+}
+footer {
+	clear: both;
+	text-align: center;
+	color: white;
+	font-size: 400%;
+}
+ul {color: white;
+}
+.webtext:last-child {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 { background: rgba(0, 0, 0, 0.5);
+}
+
+#div2 { background: rgba(0, 0, 0, 0.5);
+}
+
+h2,p:hover {
+	color: white;
+	text-align: center;
+	border: 5px dashed rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.7);
+}
+h2, p {
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 120%;
+	font-family: "Times New Roman", Georgia;
+}
